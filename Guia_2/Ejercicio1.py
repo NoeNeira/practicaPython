@@ -7,7 +7,13 @@ si no se cumple ninguna de las opciones anteriores, por pantalla devolver un men
 
 texto = input("Por favor ingrese un texto")
 
-if len(texto) > 100:
+if len(texto) >= 100:
     print(texto)
-elif len(texto) <= 50:
-    print(texto.__reversed__)    
+elif 50 <= len(texto) and len(texto) < 100:
+    print(texto[::-1])   
+else:
+    print("Su mensaje es demasiado corto")    
+
+# str(a[::-1]))
+# Return the slice of the string that starts at the end and steps backward one element at a time
+# mensaje[start:stop:step]
