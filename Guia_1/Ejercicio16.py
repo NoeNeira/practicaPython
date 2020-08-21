@@ -4,22 +4,9 @@
 # """
 TO DO
 
-# while 
-# clave = input("Ingrese un dato: (nombre, edad, sexo, teléfono, correo electrónico, etc.)")
-# valor = input("Ingrese su valor: ")
-
-# datosPersonas = {}
-
-# datosPersonas.__setitem__(clave, valor)
+clave = input("Ingrese un dato: (nombre, edad, sexo, teléfono, correo electrónico, etc.)")
+valor = input("Ingrese su valor: ")
+datosPersonas = {}
 
 # print(datosPersonas)
 
-# micalculo= "3+8"
-# print(micalculo)
-
-a = "ada"
-b = "love"
-job = "developer"
-
-
-print(a, b, job)

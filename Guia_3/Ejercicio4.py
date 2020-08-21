@@ -6,7 +6,7 @@ Imprimir resultado por pantalla.
 def productoMayor():
     listaNumeros = []
     for i in range(4):
-        n = int(input("Ingrese un número: "))
+        n = int(input("Ingrese un numero: "))
         listaNumeros.append(n)     
     listaNumeros.sort()
 
